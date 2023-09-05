@@ -24,11 +24,13 @@ No. of Instance — 01
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Step 3: Connect via SSH Client (Putty)
+<img width="513" alt="Screenshot 2023-09-05 115832" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/a264c96d-39c1-4734-8e2c-ace3307ecf8c">
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Step 4: Installing and Configuring mysql server:
+<img width="533" alt="Screenshot 2023-09-05 115850" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/4d8dd582-aa1e-48e3-96a4-cdc99a3d5620">
 
 # Install Apache server on Ubuntu
 sudo apt install apache2 -y
@@ -58,6 +60,8 @@ Exit or ctrl-D
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Step 5: Download, Configure & Install Wordpress:
+<img width="527" alt="Screenshot 2023-09-05 120019" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/f76e8c6a-7158-4000-8976-6e3ece8a86cf">
+
 cd /tmp
 wget https://wordpress.org/latest.tar.gz
 # Unzip
@@ -65,6 +69,9 @@ tar -xvf latest.tar.gz
 
 # Move wordpress folder to apache document root
 sudo mv wordpress/ /var/www/html
+<img width="528" alt="Screenshot 2023-09-05 120035" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/7542104f-29fe-4031-be74-b0ed60388e4e">
+
+<img width="518" alt="Screenshot 2023-09-05 120104" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/c213c553-baf6-473e-a43a-6df22b3013c9">
 
 # create the wp-config.php
 cd /var/www/html/wordpress
@@ -79,13 +86,20 @@ I want Wordpress website to the server at this root path. for that I need to mod
 cd /etc/apache2/sites-available/
 vi 000-default.conf
 
+<img width="520" alt="Screenshot 2023-09-05 120730" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/1348cb06-3a53-4735-8387-9dd32f557a50">
+
+<img width="517" alt="Screenshot 2023-09-05 120755" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/5eeb3714-d249-4636-8701-830e54e8bd03">
+
 # Change document root to /var/www/html/wordpress
 sudo systemctl restart apache2
 
 http://3.228.200.37/ # hit on browser
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Step 6: Link Domain name to our website
+
+<img width="680" alt="Screenshot 2023-09-05 123415" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/73c38b34-cb4c-4450-a2e8-31f8cd8b5842">
 
 I purchased a domain called kiransinghverma.online from Hostinger
 
@@ -101,6 +115,8 @@ Now I can access WordPress website by my domain name.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Step 7: Secure Connection (HTTPS)
+
+<img width="364" alt="Screenshot 2023-09-05 123521" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/4d9817e3-04cd-4f5e-926b-13c5af385472">
 
 # install certbot
 sudo apt-get update
