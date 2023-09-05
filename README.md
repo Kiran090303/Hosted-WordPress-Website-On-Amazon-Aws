@@ -21,7 +21,7 @@ No. of Instance — 01
 # Step 2: Associate Elastic IP address
 
 <img width="794" alt="Screenshot 2023-09-05 023628" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/184f1156-4366-4112-b8e4-e070d249e922">
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 # Step 3: Connect via SSH Client (Putty)
 <img width="513" alt="Screenshot 2023-09-05 115832" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/a264c96d-39c1-4734-8e2c-ace3307ecf8c">
