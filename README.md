@@ -69,6 +69,7 @@ tar -xvf latest.tar.gz
 
 # Move wordpress folder to apache document root
 sudo mv wordpress/ /var/www/html
+
 <img width="528" alt="Screenshot 2023-09-05 120035" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/7542104f-29fe-4031-be74-b0ed60388e4e">
 
 <img width="518" alt="Screenshot 2023-09-05 120104" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/c213c553-baf6-473e-a43a-6df22b3013c9">
