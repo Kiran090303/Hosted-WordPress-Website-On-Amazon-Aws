@@ -5,7 +5,7 @@ Provides a step-by-step guide and configuration files for deploying a WordPress 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 1: Launch an instance
+# Step 1: Launch an instance
 
 AMI — Ubuntu Server
 Instance Type — t2.micro
@@ -18,17 +18,17 @@ No. of Instance — 01
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 2: Associate Elastic IP address
+# Step 2: Associate Elastic IP address
 
 <img width="794" alt="Screenshot 2023-09-05 023628" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/184f1156-4366-4112-b8e4-e070d249e922">
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 3: Connect via SSH Client (Putty)
+# Step 3: Connect via SSH Client (Putty)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 4: Installing and Configuring mysql server:
+# Step 4: Installing and Configuring mysql server:
 
 # Install Apache server on Ubuntu
 sudo apt install apache2 -y
@@ -57,7 +57,7 @@ GRANT ALL PRIVILEGES ON wp.* TO 'wp_user'@localhost;
 Exit or ctrl-D
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 5: Download, Configure & Install Wordpress:
+# Step 5: Download, Configure & Install Wordpress:
 cd /tmp
 wget https://wordpress.org/latest.tar.gz
 # Unzip
@@ -65,10 +65,6 @@ tar -xvf latest.tar.gz
 
 # Move wordpress folder to apache document root
 sudo mv wordpress/ /var/www/html
-
-
-
-
 
 # create the wp-config.php
 cd /var/www/html/wordpress
@@ -89,7 +85,7 @@ sudo systemctl restart apache2
 http://3.228.200.37/ # hit on browser
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 6: Link Domain name to our website
+# Step 6: Link Domain name to our website
 
 I purchased a domain called kiransinghverma.online from Hostinger
 
@@ -104,7 +100,7 @@ kiransinghverma.online # hit on browser probably it takes 15-20 minutes to refle
 Now I can access WordPress website by my domain name.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Step 7: Secure Connection (HTTPS)
+# Step 7: Secure Connection (HTTPS)
 
 # install certbot
 sudo apt-get update
