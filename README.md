@@ -1,6 +1,7 @@
 # Hosted-WordPress-Website-On-Amazon-Aws
 Provides a step-by-step guide and configuration files for deploying a WordPress website on an Amazon Web Services (AWS) Elastic Compute Cloud (EC2) instance with custom domain name (kiransinghverma.online)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Step 1: Launch an instance
 AMI — Ubuntu Server
 Instance Type — t2.micro
@@ -9,10 +10,13 @@ Firewall (security groups) — ssh, http, https
 Configuration Storage — 8 GB, gp2
 No. of Instance — 01
 → Launch Instance
+<img width="794" alt="Screenshot 2023-09-05 023648" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/43a6c184-b22f-4e80-b5c2-bfc1a2f631fd">
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Step 2: Associate Elastic IP address
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<img width="794" alt="Screenshot 2023-09-05 023628" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/184f1156-4366-4112-b8e4-e070d249e922">
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Step 3: Connect via SSH Client (Putty)
 
 I have connected to virtual computer…
