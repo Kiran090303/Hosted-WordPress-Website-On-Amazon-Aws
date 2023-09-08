@@ -7,12 +7,12 @@ Provides a step-by-step guide and configuration files for deploying a WordPress 
 
 # Step 1: Launch an instance
 
-AMI — Ubuntu Server
-Instance Type — t2.micro
-Key Pair — ppk file format
-Firewall (security groups) — ssh, http, https
-Configuration Storage — 8 GB, gp2
-No. of Instance — 01
+-> AMI — Ubuntu Server
+-> Instance Type — t2.micro
+-> Key Pair — ppk file format
+-> Firewall (security groups) — ssh, http, https
+-> Configuration Storage — 8 GB, gp2
+-> No. of Instance — 01
 → Launch Instance
 <img width="794" alt="Screenshot 2023-09-05 023648" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/43a6c184-b22f-4e80-b5c2-bfc1a2f631fd">
 
