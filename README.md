@@ -80,7 +80,7 @@ vi wp-config.php
 
 
 # ip-address followed by wordpress
-3.228.200.37/wordpress/
+3.89.166.68/wordpress/
 
 I want Wordpress website to the server at this root path. for that I need to modify apache configuration, so I go back to my terminal rest follow below commands.
 
@@ -94,7 +94,7 @@ vi 000-default.conf
 # Change document root to /var/www/html/wordpress
 sudo systemctl restart apache2
 
-http://3.228.200.37/ # hit on browser
+http://3.89.166.68/ # hit on browser
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
