@@ -7,7 +7,7 @@ Provides a step-by-step guide and configuration files for deploying a WordPress 
 
 # Step 1: Launch an instance
 
--> AMI — Ubuntu Server
+-> * AMI — Ubuntu Server
 -> Instance Type — t2.micro
 -> Key Pair — ppk file format
 -> Firewall (security groups) — ssh, http, https
