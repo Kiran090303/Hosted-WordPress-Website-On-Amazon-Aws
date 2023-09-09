@@ -34,6 +34,7 @@ Provides a step-by-step guide and configuration files for deploying a WordPress 
 
 # Install Apache server on Ubuntu
 *sudo apt update*
+
 *sudo apt install apache2 -y*
 
 # Install php runtime and php mysql connector
