@@ -33,7 +33,7 @@ Provides a step-by-step guide and configuration files for deploying a WordPress 
 <img width="533" alt="Screenshot 2023-09-05 115850" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/4d8dd582-aa1e-48e3-96a4-cdc99a3d5620">
 
 # Install Apache server on Ubuntu
-sudo apt install apache2 -y
+*sudo apt install apache2 -y*
 
 # Install php runtime and php mysql connector
 sudo apt install php libapache2-mod-php php-mysql -y
