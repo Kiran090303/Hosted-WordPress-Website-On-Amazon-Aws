@@ -119,11 +119,11 @@ Now we can access WordPress website by my domain name.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Step 7: Secure Connection (HTTPS)
 
-<img width="364" alt="Screenshot 2023-09-05 123521" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/4d9817e3-04cd-4f5e-926b-13c5af385472">
-
 # install certbot
 *sudo apt-get update*
 *sudo apt install certbot python3-certbot-apache -y*
 # Request and install ssl on your site with certbot
 *sudo certbot --apache*
 # This will secure the connection #
+<img width="364" alt="Screenshot 2023-09-05 123521" src="https://github.com/Kiran090303/Hosted-WordPress-Website-On-Amazon-Aws/assets/98480971/4d9817e3-04cd-4f5e-926b-13c5af385472">
+
